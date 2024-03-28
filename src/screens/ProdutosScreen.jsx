@@ -73,9 +73,10 @@ export default function ProdutosScreen() {
       <ScrollView>
         <View
           style={{
-            flexDirection: "row",
-            justifyContent: "space-around",
+            flexDirection: "center",
+            justifyContent: "space-between",
             flexWrap: "wrap",
+            width: "100%", maxWidth: 480, height: 300
           }}
         >
           {categorias.map((cat) => (
